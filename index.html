@@ -102,7 +102,10 @@
 
 								<h3><b>Are Recursive Neural Networks Useful for Macroeconomic Forecasting?</b></h3>
 								with <a href="https://sites.northwestern.edu/federicopuglisi/">Federico Puglisi</a> and Emre E. Yavuz</b>
-								<p>We horse-race a Bayesian VAR with hierarchical priors, one of the state of the art macroeconomic forecasting models, with a simple RNN, a GRU, and different LSTMs. We find that any sufficiently flexible, and well regularized model has similar forecasting performance as the Bayesian VAR. We are able to marginally outperform the Bayesian VAR using an auto-encoder in conjunction with a vanilla RNN. Since this model uses more data and relies on dimensionality reduction, we conclude that the most promising application of machine learning techniques is the extraction of information from high dimensional datasets.</p>
+								<p>We horse-race a Bayesian VAR with hierarchical priors, one of the state of the art macroeconomic forecasting models, with different neural networks. These include a simple RNN, a GRU, and a GRU regularized such that it shrinks towards withe noise (GRU-VAR). We find that any sufficiently flexible, and well regularized model has similar forecasting performance as the Bayesian VAR. We find that our GRU-VAR easily outperforms the BVAR in forcasts that go further than one step.</p>
+								<ul class="actions">
+									<li><a href="files/rnns_vs_bvar.pdf" class="button small">Link to Slides</a></li>
+								</ul>
 							</section>
 
 
